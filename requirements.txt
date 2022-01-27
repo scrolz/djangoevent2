@@ -3,7 +3,7 @@ gunicorn==20.1.0
 pytz==2020.1
 sqlparse==0.4.2
 whitenoise==5.3.0
-django-bootstrap4==4.0.1
+django-bootstrap4==21.2
 django-stdimage==8.1.2
 dj_database_url==0.5.0
 psycopg2-binary==2.9.3
