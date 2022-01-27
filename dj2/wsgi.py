@@ -10,7 +10,8 @@ https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
+from dj_static import cling, MediaCling
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dj2.settings')
 
-application = get_wsgi_application()
+application = cling(MediaCling(get_wsgi_application()))
